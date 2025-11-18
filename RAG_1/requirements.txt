@@ -1,0 +1,40 @@
+# Smart PDF RAG QA System - Requirements
+# Core dependencies for the modular PDF RAG system with configuration management
+
+# Core Application Framework
+streamlit>=1.28.0
+
+# PDF Processing
+PyMuPDF>=1.23.0
+
+# Machine Learning & AI
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+transformers>=4.35.0
+torch>=2.0.0
+numpy>=1.24.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+# HTTP Requests & API Communication
+requests>=2.31.0
+
+# Configuration Management
+configparser>=5.3.0
+
+# Optional Dependencies (uncomment if needed)
+# tensorflow>=2.13.0        # For TensorFlow optimizations (optional)
+# faiss-gpu>=1.7.4          # GPU-accelerated FAISS (alternative to faiss-cpu)
+
+# System Dependencies Required:
+# - Tesseract OCR: Required for text extraction from images
+#   Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
+#   macOS: brew install tesseract
+#   Linux: sudo apt-get install tesseract-ocr
+#
+# - LM Studio: Required for LLM server functionality
+#   Download from https://lmstudio.ai/
+#   Load your preferred models (DeepSeek, Qwen, etc.)
