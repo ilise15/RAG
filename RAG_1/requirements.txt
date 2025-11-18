@@ -1,0 +1,21 @@
+streamlit>=1.28.0
+PyMuPDF>=1.23.0
+
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+transformers>=4.35.0
+torch>=2.0.0
+numpy>=1.24.0
+
+opencv-python>=4.8.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+requests>=2.31.0
+
+configparser>=5.3.0
+
+# tensorflow>=2.13.0
+# faiss-gpu>=1.7.4
+
+# dodatno instalirati: Teesseract OCR i LM Studio
