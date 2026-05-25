@@ -1,0 +1,1 @@
+The project implements a Retrieval-Augmented Generation workflow where relevant information is first retrieved from a data source and then provided to a language model in order to generate more accurate and context-aware responses.
